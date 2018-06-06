@@ -1,0 +1,68 @@
+.contactform
+  display: flex
+  flex-direction: column
+  justify-content: center
+  text-align: center
+  height: 100vh
+  position: relative
+
+.contact
+  h2
+    margin-bottom: 50px
+    text-align: center
+
+form
+  background-color: $white
+  box-shadow: 0px 10px 22px rgba($lightgrey,0.2)
+  padding: 4em
+  min-width: 70%
+  font-family: 'Montserrat', sans-serif
+  box-sizing: border-box
+
+#fname, #lname, #email, #tel
+  margin-top: 40px
+  padding-bottom: 5px
+  width: 40%
+  border: none
+  border-bottom: 2px solid $lightgrey
+  background-color: rgba(0,0,0,0)
+
+#subject
+  margin-top: 40px
+  padding-bottom: 5px
+  width: 80%
+  border: none
+  border-bottom: 2px solid $lightgrey
+  background-color: rgba(0,0,0,0)
+
+textarea
+  width: 80%
+  max-width: 80%
+  margin-top: 40px
+  border: none
+  border-bottom: 2px solid $lightgrey
+  padding-bottom: 5px
+  background-color: rgba(0,0,0,0)
+
+button
+  margin-top: 50px
+  width: 30%
+  padding: 10px 15px
+  background-color: $green
+  box-shadow: none
+  border: none
+  color: $white
+
+  &:hover
+    transform: translateY(-3px)
+
+.rect-pink-form
+  stroke: #ffdcd4
+  stroke-width: $stroke
+  fill: none
+
+  position: absolute
+  z-index: -11
+  width: 1200px
+  left: 60%
+  top: 300px
