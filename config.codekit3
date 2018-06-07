@@ -110,11 +110,25 @@
 		"oAP": "\/build\/code.txt",
 		"oF": 0
 		},
-	"\/build\/pages\/index.html": {
+	"\/build\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/pages\/index.html",
+		"oAP": "\/build\/index.html",
+		"oF": 0
+		},
+	"\/build\/pages\/artiste.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/pages\/artiste.html",
+		"oF": 0
+		},
+	"\/build\/pages\/collaborateurs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/pages\/collaborateurs.html",
 		"oF": 0
 		},
 	"\/package.json": {
@@ -2354,7 +2368,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "\/build\/pages",
+	"previewPathAddition": "\/build",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,

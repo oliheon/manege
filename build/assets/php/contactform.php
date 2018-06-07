@@ -7,7 +7,7 @@
     $subject = $_POST['subject'];
     $tel = $_POST['tel'];
 
-    $mailTo = "info@manege.com";
+    $mailTo = "oli@nmd.agency";
     $headers = "From:".$mailFrom".";
     $text = "Vous avez reçu ce message de la part de ".$firstname" ".$lastname".\n\n";
 
