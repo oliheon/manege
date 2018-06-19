@@ -4,13 +4,13 @@
     <title>Manège management</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
   <header class="nav-home">
     <nav class="nav-cont">
         <ul>
-            <li><a href="./index.html">accueil</a></li>
+            <li><a href="#">à propos</a></li>
             <li><a href="#">artistes</a></li>
             <li><a href="#">collaborateurs</a></li>
             <li><a href="#">contact</a></li>
@@ -56,20 +56,45 @@
       <img src="assets/img/band_manege.png" alt="band manege" class="photo-home"/>
     </div>
   </section>
+  <section class="artistes wrapper">
+    <h2>Artistes</h2>
+    <div class="placeholder">
+      <div class="artiste">
+        <div class="img-artiste">
+          <img src="assets/img/mortrose_manege.jpg" alt="">
+        </div>
+        <div class="info">
+          <h3>Mort Rose</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/bandcamp_logo.png" alt="logo bandcamp"></a></li>
+            <li><a href="#"><img src="assets/img/bandcamp_logo.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/bandcamp_logo.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="artiste">
+        <div class="img-artiste">
+          <img src="assets/img/mortrose_manege.jpg" alt="MORT ROSE">
+        </div>
+        <div class="info">
+          <h3>Raymond Chabot inc.</h2>
+          <ul>
+            <li><a href="#"><img src="assets/img/bandcamp_logo.png" alt="logo bandcamp"></a></li>
+            <li><a href="#"><img src="assets/img/bandcamp_logo.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/bandcamp_logo.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="contactform wrapper">
     <div class="contact">
       <h2>Embarcation immédiate.</h2>
-      <form class="contact" action="contactform.php" method="post">
-        <input type="text" id="fname" name="firstname" placeholder="prénom*" required>
-        <input type="text" id="lname" name="lastname" placeholder="nom*" required>
-        <input type="email" id="email" name="email" placeholder="adresse courriel*" required>
-        <input type="tel" id="tel" name="tel" placeholder="numéro de téléphone">
-        <input type="text" id="subject" name="subject" placeholder="sujet*" required>
-        <textarea id="subject" name="subject" placeholder="message*" required></textarea>
-        <br>
-        <button type="submit" value="submit">Jasons!</button>
-        <p>*champs obligatoire</p>
-      </form>
+      <a href="mailto:oli@nmd.agency">
+        <button>
+          Jasons!
+        </button>
+      </a>
     </div>
 
     <div class="rect-pink-form">
@@ -79,13 +104,7 @@
     </div>
   </section>
   <footer>
-    <ul>
-      <li><a href="#" class="footer-link">conditions</a></li>
-      <li><a href="#" class="footer-link">artistes</a></li>
-      <li><a href="#" class="footer-link"><img src="assets/img/logo-manege-pink-footer.png" alt="logo manege"></a></li>
-      <li><a href="#" class="footer-link">collaborateurs</a></li>
-      <li><a href="#" class="footer-link">contact</a></li>
-    </ul>
+    <a href="#" class="footer-link"><img src="assets/img/logo-manege-pink-footer.png" alt="logo manege"></a></li>
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/app.js"></script>

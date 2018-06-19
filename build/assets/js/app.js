@@ -1,1 +1,1 @@
-window.sr=ScrollReveal();
+window.sr=ScrollReveal(),$(document).ready(function(){$(window).scroll(function(){10<$(window).scrollTop()?$(".nav-home").css("background","rgba(250,250,250,0.8)").css("height","50px"):$(".nav-home").css("background","none").css("height","100px")})});

@@ -1,0 +1,72 @@
+.artistes
+  height: 90%
+  display: block
+  margin: 200px auto
+
+  h2
+
+  .placeholder
+    width: 100%
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: flex-start
+    margin-bottom: 100px
+
+
+    .artiste
+      padding: 2%
+      border: 2px solid $lightgrey
+      margin: 0 3% 0 0
+      box-shadow: 1px 2px 3px rgba($black,0.3)
+      display: block
+      @media screen and (max-width: 800px)
+        width: 43%
+        text-align: center
+        padding: 2%
+        transform: rotate(0)
+        margin: 0 1em
+
+      @media screen and (max-width: 555px)
+        width: 100%
+        text-align: center
+        padding: 2%
+        transform: rotate(0)
+        margin: 10px auto
+
+      .img-artiste
+        img
+          border: 2px solid rgba($black, 0.3)
+          text-align: center
+          width: 100%
+          @media screen and (max-width: 800px)
+            width: 100%
+
+      .info
+        padding: 0.8em
+
+        img
+          width: 40px
+          opacity: 0.7
+          margin-right: 20px
+          &:hover
+            opacity: 1
+            transition: 200ms ease-in-out
+          @media screen and (max-width: 800px)
+            margin: 0
+            width: 100%
+
+
+
+    ul
+      list-style: none
+      display: flex
+      justify-content: flex-start
+      padding: 10px 0
+      @media screen and (max-width: 800px)
+        justify-content: center
+
+      li
+        @media screen and (max-width: 800px)
+          padding: 0 5%
+          text-align: center

@@ -3,7 +3,7 @@
   flex-direction: column
   justify-content: center
   text-align: center
-  height: 100vh
+  height: 50%
   position: relative
 
 .contact
@@ -56,19 +56,10 @@ button
   box-shadow: none
   border: none
   color: $white
+  z-index: 1000
+  @media screen and (max-width: 650px)
+    width: 60%
+    margin-top: 10px
 
   &:hover
     transform: translateY(-3px)
-
-
-
-.rect-pink-form
-  stroke: #ffdcd4
-  stroke-width: $stroke
-  fill: none
-
-  position: absolute
-  z-index: -11
-  width: 1200px
-  left: 60%
-  top: 500px
