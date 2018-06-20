@@ -10,14 +10,14 @@
   <header class="nav-home">
     <nav class="nav-cont">
         <ul>
-            <li><a href="#">à propos</a></li>
-            <li><a href="#">artistes</a></li>
-            <li><a href="#">collaborateurs</a></li>
-            <li><a href="#">contact</a></li>
+            <li style="display: none;"><a href="#hero"  class="scroll">hero</a></li>
+            <li><a href="#apropos"  class="scroll">à propos</a></li>
+            <li><a href="#artistes" class="scroll">artistes</a></li>
+            <li><a href="#contact" class="scroll">contact</a></li>
         </ul>
     </nav>
   </header>
-  <section class="hero">
+  <section class="hero scroll" id="hero">
       <div id="background">
         <div class="right-elipse">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 856">
@@ -47,7 +47,7 @@
         </svg>
         </div>
     </section>
-  <section class="about-us wrapper">
+  <section class="about-us wrapper" id="apropos">
     <div class="about">
       <div class="text-about">
         <h2>Qui sommes-nous?</h2>
@@ -56,7 +56,7 @@
       <img src="assets/img/band_manege.png" alt="band manege" class="photo-home"/>
     </div>
   </section>
-  <section class="artistes wrapper">
+  <section class="artistes wrapper" id="artistes">
     <h2>Artistes</h2>
     <div class="placeholder">
       <div class="artiste">
@@ -87,7 +87,7 @@
       </div>
     </div>
   </section>
-  <section class="contactform wrapper">
+  <section class="contactform wrapper" id="contact">
     <div class="contact">
       <h2>Embarcation immédiate.</h2>
       <a href="mailto:oli@nmd.agency">

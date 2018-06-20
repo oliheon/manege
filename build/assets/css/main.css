@@ -253,7 +253,7 @@ a {
   outline: 0;
   font-family: 'Quicksand', sans-serif; }
   a:hover, a:focus {
-    color: #1EC65B; }
+    color: none; }
 
 ::-moz-selection {
   background: #FFDCD4; }
@@ -371,7 +371,6 @@ nav ul {
   display: flex;
   list-style-type: none;
   font-family: Quicksand;
-  color: #1EC65B;
   padding: 0px; }
 
 nav li a {
@@ -380,7 +379,7 @@ nav li a {
   -o-transition: 500ms;
   transition: 500ms; }
 
-nav li a:active {
+.active a {
   color: #1EC65B; }
 
 footer {
@@ -403,7 +402,11 @@ footer {
   justify-content: center;
   text-align: center;
   height: 50%;
-  position: relative; }
+  position: relative;
+  margin-bottom: 20%; }
+  @media screen and (max-width: 650px) {
+    .contactform {
+      margin-bottom: 40%; } }
 
 .contact h2 {
   margin-bottom: 50px;
@@ -466,6 +469,9 @@ button {
     -ms-transform: translateY(-3px);
     transform: translateY(-3px); }
 
+#artistes {
+  padding: 1% 0; }
+
 .artistes {
   height: 90%;
   display: block;
@@ -514,7 +520,7 @@ button {
         border: 2px solid rgba(20, 20, 20, 0.3);
         text-align: center;
         width: 100%; }
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 810px) {
           .artistes .placeholder .artiste .img-artiste img {
             width: 100%; } }
       .artistes .placeholder .artiste .info {
@@ -528,7 +534,7 @@ button {
             -webkit-transition: 200ms ease-in-out;
             -o-transition: 200ms ease-in-out;
             transition: 200ms ease-in-out; }
-          @media screen and (max-width: 800px) {
+          @media screen and (max-width: 810px) {
             .artistes .placeholder .artiste .info img {
               margin: 0;
               width: 100%; } }
@@ -541,12 +547,12 @@ button {
       -ms-flex-pack: start;
       justify-content: flex-start;
       padding: 10px 0; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 810px) {
         .artistes .placeholder ul {
           -webkit-box-pack: center;
           -ms-flex-pack: center;
           justify-content: center; } }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 810px) {
         .artistes .placeholder ul li {
           padding: 0 5%;
           text-align: center; } }
@@ -647,8 +653,7 @@ button {
   width: 71%;
   left: 60%;
   top: 50%;
-  bottom: -100%;
-  overflow: hidden; }
+  bottom: -100%; }
   @media screen and (max-width: 650px) {
     .rect-pink-form {
       width: 95%; } }
@@ -674,7 +679,8 @@ button {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    padding: 5% 0; }
     @media screen and (max-width: 650px) {
       .about-us .about {
         width: 95%; } }
