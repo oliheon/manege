@@ -12,6 +12,7 @@ window.sr = ScrollReveal();
 // Javascript for header/nav section
 
 $(document).ready(function(){
+  // Menu
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 10) {
@@ -22,6 +23,8 @@ $(document).ready(function(){
 		  $(".nav-home").css("background" , "none").css("height", "100px");
 	  }
   })
+
+  //Smooth Scrolling
 
   var scrollLink = $('.scroll');
 
@@ -54,7 +57,7 @@ $(function() {
 
 var $body = $(document);
 $body.bind('scroll', function() {
-  
+
 // "Disable" the horizontal scroll.
 if ($body.scrollLeft() !== 0) {
 $body.scrollLeft(0);
@@ -62,3 +65,13 @@ $body.scrollLeft(0);
 });
 
 });
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        document.getElementById("up").style.display = "block";
+    } else {
+        document.getElementById("up").style.display = "none";
+    }
+}
