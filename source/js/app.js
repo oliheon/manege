@@ -16,7 +16,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 10) {
-	    $(".nav-home").css("background" , "rgba(250,250,250,0.8)").css("height", "50px");
+	    $(".nav-home").css("background" , "rgba(250,250,250,0.5)").css("height", "50px");
 	  }
 
 	  else{

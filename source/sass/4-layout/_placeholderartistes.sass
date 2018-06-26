@@ -1,7 +1,7 @@
 
 
 .artistes
-  height: 90%
+  height: 100vh
   display: flex
   flex-direction: column
   justify-content: center
@@ -22,8 +22,8 @@
 
     .artiste
       padding: 2%
-      border: 2px solid $lightgrey
-      box-shadow: 1px 2px 3px rgba($black,0.3)
+      border: 1px solid $lightgrey
+      box-shadow: 1px 2px 3px rgba($black,0.2)
       display: block
       background-color: white
       &:nth-child(1)
@@ -46,14 +46,14 @@
         img
           border: 2px solid rgba($black, 0.3)
           text-align: center
-          max-width: 400px
+          max-width: 300px
           @media screen and (max-width: 1024px)
             width: 300px
           @media screen and (max-width: 810px)
             width: 100%
 
       .info
-        padding: 0.8em
+        padding: 0.3em
 
         img
           width: 35px
@@ -74,7 +74,8 @@
       list-style: none
       display: flex
       justify-content: flex-start
-      padding: 10px 0
+      padding: 0
+      margin: 0
       @media screen and (max-width: 810px)
         justify-content: center
 

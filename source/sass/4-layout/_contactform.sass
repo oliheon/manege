@@ -3,10 +3,9 @@
   flex-direction: column
   justify-content: center
   text-align: center
-  height: 50%
+  height: 100vh
   position: relative
-  margin-bottom: 20%
-  padding-top: 15%
+
   @media screen and (max-width: 650px)
     margin-bottom: 40%
 
@@ -16,54 +15,31 @@
     text-align: center
 
 .contact
+  border: 2px solid $lightgrey
+  border-radius: 30px
+  padding: 5% 5%
+  margin: 10%
+  @media screen and (max-width: 650px)
+    padding: 10%
   h2
+    padding: 0
+    margin: 0
     margin-bottom: 50px
     text-align: center
-
-form
-  background-color: $white
-  box-shadow: 0px 10px 22px rgba($lightgrey,0.2)
-  padding: 4em
-  min-width: 70%
-  font-family: 'Montserrat', sans-serif
-  box-sizing: border-box
-
-#fname, #lname, #email, #tel
-  margin-top: 40px
-  padding-bottom: 5px
-  width: 40%
-  border: none
-  border-bottom: 2px solid $lightgrey
-  background-color: rgba(0,0,0,0)
-
-#subject
-  margin-top: 40px
-  padding-bottom: 5px
-  width: 80%
-  border: none
-  border-bottom: 2px solid $lightgrey
-  background-color: rgba(0,0,0,0)
-
-textarea
-  width: 80%
-  max-width: 80%
-  margin-top: 40px
-  border: none
-  border-bottom: 2px solid $lightgrey
-  padding-bottom: 5px
-  background-color: rgba(0,0,0,0)
+    @media screen and (max-width: 750px)
+      font-size: 25px
 
 button
   margin-top: 50px
-  width: 30%
+  width: 40%
   padding: 10px 15px
   background-color: $green
   box-shadow: none
   border: none
   color: $white
   z-index: 1000
-  @media screen and (max-width: 650px)
-    width: 60%
+  @media screen and (max-width: 750px)
+    width: 90%
     margin-top: 10px
 
   &:hover
